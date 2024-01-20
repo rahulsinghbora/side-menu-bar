@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    overflow-x: hidden;
+}
+
+/***************************styling header*********************************/
+header {
+    font-size: 3.2rem;
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+    align-items: center;
+    background-color: rgb(101, 65, 134);
+    box-shadow: 5px 5px 10px rgb(116, 57, 57);
+}
+
+header .heading {
+    color: #fff;
+    font-weight: 800;
+}
+
+header button {
+    padding: .5rem;
+    background-color: rgb(230, 81, 27);
+    color: #fff;
+    font-weight: 600;
+}
+
+header button:hover {
+    background-color: rgb(250, 88, 29);
+    cursor: pointer;
+}
+
+/****************************styling nav bar*********************************/
+.first {
+    width: 31rem;
+    background-color: rgb(189, 54, 189);
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    transform: translateX(100%);
+    transition: all .5s linear;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    background-color: violet;
+}
+
+.main li {
+    font-size: 3.2rem;
+    list-style-type: none;
+    margin-top: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.main li a {
+    text-decoration: none;
+}
+
+.main li a:hover {
+    text-decoration: underline;
+}
+
+.main button {
+    font-size: 3.2rem;
+    background-color: orangered;
+    padding: 0 .7rem;
+    border: 0;
+}
+
+.main .out:hover {
+    color: #4e3c3c;
+}
+
+.active{
+    transform: translateX(0);
+}
+
+
+/*********************hero*********************/
+body{
+    background-color: rgb(49, 136, 136);
+}
